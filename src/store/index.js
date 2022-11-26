@@ -7,7 +7,7 @@ createSlice({
   name: 'counter',
   initialState,
   reducers: {
-    imcrement(state) {
+    increment(state) {
       state.counter++;
     },
     decrement(state) {
